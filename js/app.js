@@ -20,8 +20,8 @@
 
         function changeBackground() {
 
-            var city = $('#city-type').val().toLowerCase;
-            if ((city === 'New York') || (city === 'New York City') || (city === 'NYC')) {
+            var city = $('#city-type').val().toLowerCase();
+            if ((city === 'new york') || (city === 'new york city') || (city === 'nyc')) {
                 $('body').css('backgroundImage', 'url(../images/nyc.jpg)');
 
 
